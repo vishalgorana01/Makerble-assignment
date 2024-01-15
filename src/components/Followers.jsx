@@ -75,7 +75,7 @@ function Followers({show}) {
     }, [])
     
     return (
-        <span className={`${show ? 'flex' : 'hidden'} flex-col items-start justify-start w-full gap-y-5 pb-3 bg-white rounded-md`} style={{height: '-webkit-fill-available'}}>
+        <span className={`${show ? 'flex' : 'hidden'} flex-col items-start justify-start w-full gap-y-5 pb-3 bg-white rounded-md xl:flex`} style={{height: '-webkit-fill-available'}}>
             <span className='flex items-center justify-between w-full px-3 py-2 border-b-2 border-[#0000001a]'>
                 <h3 className='text-base font-semibold text-[#215ce58f] cursor-pointer hover:underline'>Followers</h3>
             </span>

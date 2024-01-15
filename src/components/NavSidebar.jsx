@@ -18,24 +18,24 @@ function NavSidebar({ show, setShow }) {
                     onClick={() => { setShow(!show) }} />
 
 
-                <span className='flex items-center justify-center'>
+                <a href='/' className='flex items-center justify-center'>
                     My Apps
-                </span>
-                <span className='flex items-center justify-center'>
+                </a>
+                <a href='/' className='flex items-center justify-center'>
                     Home
-                </span>
-                <span className='flex items-center justify-center'>
+                </a>
+                <a href='/' className='flex items-center justify-center'>
                     Explore
-                </span>
-                <span className='flex items-center justify-center'>
+                </a>
+                <a href='/' className='flex items-center justify-center'>
                     Your Profile
-                </span>
-                <span className='flex items-center justify-center'>
+                </a>
+                <a href='/' className='flex items-center justify-center'>
                     Chats
-                </span>
-                <span className='flex items-center justify-center'>
+                </a>
+                <a href='/' className='flex items-center justify-center'>
                     Notifications
-                </span>
+                </a>
                 <span className='flex items-center justify-center px-3.5 py-1.5 text-white font-semibold cursor-pointer rounded-sm w-28 bg-red-400'>
                     <FaPlus />&nbsp;Create
                 </span>

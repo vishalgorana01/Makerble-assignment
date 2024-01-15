@@ -38,15 +38,15 @@ function Navbar() {
                         </span>
 
                         <span className='hidden items-center justify-center border-[#0000001a] border-l-2 border-r-2 border-solid w-full xl:flex'>
-                            <span className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
+                            <a href='/' className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
                                 My&nbsp;apps
-                            </span>
-                            <span className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
+                            </a>
+                            <a href='/' className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
                                 Home
-                            </span>
-                            <span className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
+                            </a>
+                            <a href='/' className='flex items-center justify-center py-5 px-7 border-solid border-[#0000001a] border-r-2 cursor-pointer'>
                                 Explore
-                            </span>
+                            </a>
                             <span className='flex items-center justify-between py-3.5 px-2.5 gap-x-5 border-solid border-[#0000001a] border-r-2 w-full'>
                                 <input type="text" placeholder='search for contacts and projects' className='px-2.5 py-1 border-2 border-[#0000001a] outline-[#0000001a] rounded-md w-3/5' />
 
